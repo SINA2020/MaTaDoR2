@@ -1,8 +1,8 @@
 package.path = package.path..';.luarocks/share/lua/5.2/?.lua;.luarocks/share/lua/5.2/?/init.lua'
 package.cpath = package.cpath..';.luarocks/lib/lua/5.2/?.so'
-bot_token = "418516842:AAHlHyfOpUKIikXWO-ai5JXwMC08CiSv7Kw" --Put You Token Here
+bot_token = "492114704:AAEAme-aGATvPsSWXcVNnkzdHGw6fr33ZlA" --Put You Token Here
 send_api = "https://api.telegram.org/bot"..bot_token
-sudo_id = 377450049
+sudo_id = 384241114
 require('./bot/methods')
 require('./bot/utils')
 require('./libs/JSON')
@@ -162,25 +162,25 @@ function create_config( )
     "core",
     "plugins"
     },
-    sudo_users = {377450049,00000000},--Sudo users
+    sudo_users = {384241114,497825602},--Sudo users
     admins = {},
     disabled_channels = {},
     moderation = {data = ''..MaTaDoRTeaM..'/data/moderation.json'},
     info_text = [[
-*》MaTaDoR Helper Bot V1*
+*》nice Helper Bot V1*
 	
-》[MaTaDoR Helper](https://github.com/MaTaDoRTeam/MaTaDoR)
+》[Nice Helper](https://Telegram.Me/nice20team)
 
 *》Admins :*
-*》Founder & Developer :* [MahDiRoO](Telegram.Me/mahdiroo)
-_》Developer :_ [JaVaD](Telegram.Me/javadsudo)
-_》Developer & Sponser :_ [MAKAN](Telegram.Me/shaniloop)
+*》Founder & Developer :* [shahin20nice](Telegram.Me/shahin20nice)
+_》Developer :_ [nice20admin](Telegram.Me/nice20admin)
+_》Developer & Sponser :_ [shahin20nice](Telegram.Me/shahin20nice)
 
 *》Special thanks to :*
-》[Xamarin](Telegram.Me/xamarin_developer)
+》[nice20admin](Telegram.Me/nice20admin)
 
 *》Our channel :*
-》[MaTaDoRTeaM](Telegram.Me/matadorTeam)
+》[nice20team](Telegram.Me/nice20team)
 ]],
   }
   serialize_to_file(config, './data/config.lua')
